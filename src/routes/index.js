@@ -5,7 +5,7 @@ const CoinGeckoClient = new CoinGecko();
 
 router.get("/coins", async (req, res) => {
   try {
-    let { success, data } = await CoinGeckoClient.coins.list();
+    let { success, data } = await CoinGeckoClient.coins.all();
     if (success) return res.status(200).json({ response: data });
   } catch (error) {
     return res.status(500).json({ error: "Something's wrong, try again" });
