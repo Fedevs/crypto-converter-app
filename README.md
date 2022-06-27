@@ -12,8 +12,13 @@ This project allows you to get the exchange rate of any listed Coingecko coins v
 ### You can test it with a front-end!
     git clone https://github.com/Fedevs/krypto-ledgers-test-front.git
 
+https://github.com/Fedevs/krypto-ledgers-test-front
+
 ### Install dependencies:
-    npm install
+```
+cd krypto-ledgers-test
+npm install
+```
 
 ### Run server:
     npm run start
@@ -29,22 +34,24 @@ After running the server, you can make request to the following:
 
     GET /coins
 
-No parameters needed
-Response: An Array of Objects . e.g. [{id:'bitcoin', symbol:'btc', name:'bitcoin'}, {id:'ethereum', symbol:'eth', name:'ethereum'}, ...]
+- No parameters needed
+- Response: An Array of Objects
+- e.g. [{id:'bitcoin', symbol:'btc', name:'bitcoin'}, {id:'ethereum', symbol:'eth', name:'ethereum'}, ...]
 
 ---
 
     GET /currencies
 
-No parameters needed
-Response: An Array of Strings. e.g. ['usd', 'clp', 'ars', ...]
+- No parameters needed
+- Response: An Array of Strings. e.g. ['usd', 'clp', 'ars', ...]
 
 ---
 
     GET /convert
 
-parameters: {ids: String, vs_currencies: String, amount: Number} - amount is optional but it is 0 by default
-Response: A Number
+- Parameters: {ids: String, vs_currencies: String, amount: Number} - amount is optional but it is 0 by default.
+- e.g. {ids: 'bitcoin', vs_currencies: 'usd', amount: 7}
+- Response: A Number
 
 ---
 
