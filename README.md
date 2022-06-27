@@ -50,11 +50,13 @@ Response: A Number
 
 ## Development
 
+```
 I used Coingecko API client (https://github.com/miscavage/CoinGecko-API)
 In src/app.js is the server configuration
 In src/routes.js you will find the API client requests
 Finally, there are some test in test/app.spec.js
+```
 
-##License
+## License
 
 MIT
