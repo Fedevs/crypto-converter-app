@@ -7,19 +7,19 @@ This project allows you to get the exchange rate of any listed Coingecko coins v
 ## Installation
 
 **Clone it:**
-git clone https://github.com/Fedevs/krypto-ledgers-test.git
+    git clone https://github.com/Fedevs/krypto-ledgers-test.git
 
 **You can test it with a front-end!**
-git clone https://github.com/Fedevs/krypto-ledgers-test-front.git
+    git clone https://github.com/Fedevs/krypto-ledgers-test-front.git
 
 **Install dependencies:**
-npm install
+    npm install
 
 **Run server:**
-npm run start
+    npm run start
 
 **Pssst! Check out test:**
-npm run test
+    npm run test
 
 ## Usage
 
@@ -50,12 +50,10 @@ Response: A Number
 
 ## Development
 
-```
-I used Coingecko API client (https://github.com/miscavage/CoinGecko-API)
-In src/app.js is the server configuration
-In src/routes.js you will find the API client requests
-Finally, there are some test in test/app.spec.js
-```
+- I used Coingecko API client (https://github.com/miscavage/CoinGecko-API)
+- In src/app.js is the server configuration
+- In src/routes.js you will find the API client requests
+- Finally, there are some test in test/app.spec.js
 
 ## License
 
