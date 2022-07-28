@@ -1,4 +1,4 @@
-# Krypto ledgers test
+# Crypto Converter App
 
 ## Description
 
@@ -7,16 +7,16 @@ This project allows you to get the exchange rate of any listed Coingecko coins v
 ## Installation
 
 ### Clone it:
-    git clone https://github.com/Fedevs/krypto-ledgers-test.git
+    git clone https://github.com/Fedevs/crypto-converter-app.git
 
 ### You can test it with a front-end!
-    git clone https://github.com/Fedevs/krypto-ledgers-test-front.git
+    git clone https://github.com/Fedevs/crypto-converter-app-front.git
 
 https://github.com/Fedevs/krypto-ledgers-test-front
 
 ### Install dependencies:
 ```
-cd krypto-ledgers-test
+cd crypto-converter-app
 npm install
 ```
 
